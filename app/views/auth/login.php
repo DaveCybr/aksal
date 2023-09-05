@@ -42,7 +42,7 @@
                                         <h1 class="h4 text-gray-900 mb-4">Sign In</h1>
                                     </div>
                                     <?php Flasher::Message(); ?>
-                                    <form class="user" action="<?php echo base_url; ?>/Login/prosessLogin" method="POST">
+                                    <form class="user" action="<?php echo base_url; ?>/Login/prosesLogin" method="POST">
                                         <div class="form-group">
                                             <input type="text" name="username" class="form-control form-control-user"
                                                 id="exampleInputEmail" aria-describedby="emailHelp"

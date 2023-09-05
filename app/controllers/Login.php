@@ -8,7 +8,7 @@ class Login extends Controller {
 		$this->view('auth/login', $data);
 	}
 
-	public function prosessLogin() {
+	public function prosesLogin() {
 		$username = $_POST['username'];
 		$password = $_POST['password'];
 		$data['cekuser'] = $this->model('UserModel')->cekUsername($username);
